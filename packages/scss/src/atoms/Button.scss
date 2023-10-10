@@ -1,0 +1,9 @@
+@import "foundation/all";
+
+.dse-button__container {
+  display: flex;
+  background: $btn-primary-bg;
+  color: var(--dse-btn-primary-color, #fff);
+  border: none;
+  padding: 0.25rem;
+}

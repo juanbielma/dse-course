@@ -1,0 +1,11 @@
+@import "foundation/all";
+
+@each $size, $value in $spacing {
+  .dse-w-#{$size} {
+    width: #{$value}
+  }
+
+  .dse-h-#{$size} {
+    height: $value
+  }
+}
